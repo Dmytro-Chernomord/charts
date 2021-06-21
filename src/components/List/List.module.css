@@ -1,0 +1,44 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1600px;
+    padding: 1rem 3rem;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.item {
+    background-color: #ffffff;
+    margin: 5px 15px 10px 0;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: grey;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 250ms linear;
+}
+
+.item:hover, .item:focus {
+    background-color: #b02b2bca;
+    color: #ffffff;
+    box-shadow: 5px 5px 19px -3px #000000;
+    transform: scale(1.05);
+}
+
+.itemActive {
+    background-color: #b02b2bca;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+    .list {
+        padding: 0.5rem 1rem;
+        font-size: 12px;
+    }
+    .item {
+        margin: 5px 10px 5px 0;
+        padding: 5px;
+        text-transform: capitalize;
+    }
+}

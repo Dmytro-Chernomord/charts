@@ -1,0 +1,14 @@
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.error {
+    color: #909090;
+}
+
+.errorLink {
+    text-decoration: none;
+    color: #f99d13;
+}

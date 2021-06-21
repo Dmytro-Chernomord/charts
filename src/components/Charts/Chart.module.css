@@ -1,0 +1,28 @@
+.chart {
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: rgba(228, 166, 90, 0.85);
+    box-shadow: 5px 5px 19px -3px #000000;
+}
+
+.chartArr:first-child {
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .chart {
+        padding: 0rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .wrapper {
+        padding: 0 10rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        padding: 0 15rem;
+    }
+}

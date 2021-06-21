@@ -1,0 +1,19 @@
+.background {
+    flex: 1 0 auto;
+    background-image: url('../../images/backgroundImage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, bottom;
+}
+
+.container {
+    max-width: 1600px;
+    padding: 3rem;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,29 @@
+.allCharts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.allCharts__item {
+    margin-bottom: 1rem;
+    padding: 1rem 0.5rem;
+    border-radius: 1rem;
+    width: 100%;
+    background-color: rgba(228, 166, 90, 0.85);
+    box-shadow: 5px 5px 19px -3px #000000;
+}
+
+@media screen and (min-width: 1200px) {
+    .allCharts__item {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .allCharts__item {
+        width: 45%;
+    }
+    .allCharts {
+        justify-content: space-between;
+    }
+}
